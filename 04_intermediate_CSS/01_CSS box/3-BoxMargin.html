@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Box Margin</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            /*Margin can be used to add spaces between the boxes and push the boxes around.
+
+            Margin properties:
+            margin
+            margin-top
+            margin-right
+            margin-bottom
+            margin-left
+
+            think clock wise direction - Top, right, bottom, left
+            h1{
+                margin-top: 5px;
+                margin-right: 5px;
+                margin-bottom: 5px;
+                margin-left: 5px;
+            }
+
+            OR
+            
+            h1{
+                margin: 5px; #All the side will have margin of 5 px;
+            }
+
+            OR
+
+            h1{
+                #margin: top right bottom left
+                margin: 5px 5px 5px 5px;
+            }
+
+            OR
+
+            h1{
+                #margin: top left+right bottom
+                margin: 5px 5px 5px;
+            }
+        */
+            
+        .red-border{
+            border: 5px solid red;
+            margin-bottom: 25px;
+        }
+        .blue-border{
+            border: 5px solid blue;
+            margin-top: 25px;
+            margin-left: 20px;
+        }
+        .green-border{
+            border: 5px solid green;
+            margin-top: 25px;
+            margin-left: 50px;
+        }
+    
+        </style>
+    </head>
+    <body>
+        <div class="red-border">Margin example with solid red line</div>
+        <div class="red-border" style="border-style: dashed;">Margin example with dash red line</div>
+        <div class="blue-border">Margin example with solid red line</div>
+        <div class="blue-border" style="border-style: dashed;">Margin example with dash red line</div>
+        <div class="green-border">Margin example with solid red line</div>
+        <div class="green-border" style="border-style: dashed;">Margin example with dash red line</div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>

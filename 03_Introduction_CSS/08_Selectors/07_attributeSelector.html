@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            /*
+            selector[class]{
+                property:value; ==> Declaration
+            }
+            */
+            p[class]{
+                color:blue;
+                font-weight: bold;
+            }
+            p[class=color-blue]{
+                color:purple;
+                font-weight: bold;
+            }
+            #green-border{
+                border-style: solid;
+                border-color: green;
+            }
+            .red-border{
+                border-style: solid;
+                border-color: red;
+            }
+            .text-italic{
+                font-style: italic;
+            }
+            h2.red-border{
+                border-width: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- solamente debe estar asignada a 1 elemento de la pagina
+            los elementos solamente pueden tener 1 sola id-->
+        <h1 id="green-border">Unversal selector</h1>
+        <h2 class="red-border">prueba tag especifico</h2>
+        <p class="red-border text-italic">ejemplo</p>
+        <h1 id="green-border" class="red-border text-italic">tiene mas peso la id</h1>
+        <p>probando un p sin class</p>
+        <p class="">texto con clase</p>
+        <p class="color-blue">texto con otra clase</p>
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    </body>
+</html>

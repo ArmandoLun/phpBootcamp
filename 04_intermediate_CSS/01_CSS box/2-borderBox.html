@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Border Box</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            /*
+            border-style: solid; - Controls the style of the line
+            border-color: red; - Color of the border line
+            border-width: 4px; - Width of the border line
+            border-top-style: dashed; - Apply the style only to top line
+            border-bottom-style: dotted; - Aplly the style only to bottom line
+
+            *{
+                border-style: solid;
+                border-color: red;
+            }
+            */
+            
+            div{
+                border-style: solid;
+                border-color: red;
+                border-width: 0.4rem;
+                border-top-style: dashed;
+                border-bottom-style: dotted;
+            }
+
+            .blue-border{
+                border: 5px solid blue;
+            }
+
+            .green-border{
+                border: 5px solid green;
+            }
+        </style>
+        <div>Red box</div>
+        <div class="blue-border">blue border</div>
+        <div class="green-border">green border</div>
+    </head>
+    <body>
+        
+    </body>
+</html>
