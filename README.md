@@ -1,2 +1,2 @@
 # phpBootcamp
-My exercises from a php bootcamp
+My exercises and learning from the udemy course called "The Complete 2023 PHP Full Stack Web Developer Bootcamp"
